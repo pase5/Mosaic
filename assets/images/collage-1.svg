@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#70C5E8"/>
+      <stop offset="60%" stop-color="#B2E2F7"/>
+      <stop offset="100%" stop-color="#E8F6FC"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67A856"/>
+      <stop offset="100%" stop-color="#427A32"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Sky & Garden -->
+  <rect width="400" height="520" rx="16" fill="url(#skyGrad)"/>
+  
+  <!-- Modern Glasshouse Maker Space Structure -->
+  <polygon points="120,180 280,180 340,320 60,320" fill="#E2EDF2" stroke="#241A10" stroke-width="3"/>
+  <line x1="200" y1="180" x2="200" y2="320" stroke="#879BA6" stroke-width="2"/>
+  <line x1="100" y1="250" x2="300" y2="250" stroke="#879BA6" stroke-width="2"/>
+  <!-- Colorful decorative banners inside glasshouse -->
+  <rect x="140" y="210" width="30" height="40" fill="#F7C638"/>
+  <rect x="180" y="200" width="40" height="50" fill="#F16538"/>
+  <rect x="230" y="210" width="30" height="40" fill="#52ABA4"/>
+  
+  <!-- Lush Greenery Behind -->
+  <path d="M-20 340 Q60 270 140 330 T300 310 Q370 280 420 340 L420 520 L-20 520 Z" fill="url(#grassGrad)"/>
+  
+  <!-- Festival Deckchairs -->
+  <!-- Chair 1 (Red/White stripes) -->
+  <g transform="translate(80, 360)">
+    <polygon points="10,0 60,70 10,70" fill="#E84E38" stroke="#241A10" stroke-width="3"/>
+    <line x1="18" y1="15" x2="18" y2="70" stroke="#FAF3E4" stroke-width="4"/>
+    <line x1="32" y1="35" x2="32" y2="70" stroke="#FAF3E4" stroke-width="4"/>
+    <line x1="0" y1="70" x2="70" y2="10" stroke="#8C5C38" stroke-width="5"/>
+  </g>
+  <!-- Chair 2 (Teal/Yellow stripes) -->
+  <g transform="translate(180, 350)">
+    <polygon points="10,0 60,80 10,80" fill="#52ABA4" stroke="#241A10" stroke-width="3"/>
+    <line x1="20" y1="20" x2="20" y2="80" stroke="#F7C638" stroke-width="4"/>
+    <line x1="36" y1="40" x2="36" y2="80" stroke="#F7C638" stroke-width="4"/>
+    <line x1="0" y1="80" x2="70" y2="10" stroke="#8C5C38" stroke-width="5"/>
+  </g>
+  <!-- Chair 3 (Orange) -->
+  <g transform="translate(270, 370)">
+    <polygon points="10,0 50,60 10,60" fill="#F16538" stroke="#241A10" stroke-width="3"/>
+    <line x1="0" y1="60" x2="60" y2="10" stroke="#8C5C38" stroke-width="4"/>
+  </g>
+  
+  <!-- Collaborative Builders around table -->
+  <circle cx="150" cy="410" r="14" fill="#E8B092"/>
+  <rect x="140" y="424" width="20" height="26" fill="#1C1814"/>
+  <circle cx="240" cy="405" r="14" fill="#F0C5A9"/>
+  <rect x="230" y="419" width="20" height="30" fill="#295F48"/>
+  
+  <!-- Low table with laptop & solar test kit -->
+  <rect x="170" y="430" width="55" height="18" rx="3" fill="#D9823B" stroke="#241A10" stroke-width="2"/>
+  <polygon points="180,428 196,428 198,430 178,430" fill="#3D4B54"/>
+  
+  <!-- Clean Photo Frame Border -->
+  <rect x="4" y="4" width="392" height="512" rx="14" fill="none" stroke="#241A10" stroke-width="4"/>
+</svg>

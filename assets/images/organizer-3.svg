@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="94" fill="#C5E2C2" stroke="#241A10" stroke-width="4"/>
+  <!-- Short hair -->
+  <path d="M56 86 C56 50 144 50 144 86 C144 94 136 100 136 100 C136 60 64 60 64 100 Z" fill="#2E241E"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="98" rx="40" ry="44" fill="#E8B79B"/>
+  <!-- Eyes -->
+  <circle cx="86" cy="92" r="5" fill="#241A10"/>
+  <circle cx="114" cy="92" r="5" fill="#241A10"/>
+  <!-- Eyebrows -->
+  <path d="M80 84 L92 84" stroke="#241A10" stroke-width="3" stroke-linecap="round"/>
+  <path d="M108 84 L120 84" stroke="#241A10" stroke-width="3" stroke-linecap="round"/>
+  <!-- Stubble / Beard -->
+  <path d="M72 100 C72 136 128 136 128 100 C120 114 80 114 72 100 Z" fill="#3D2D24"/>
+  <!-- Smile -->
+  <path d="M90 112 Q100 120 110 112" stroke="#FAF3E4" stroke-width="3" fill="none"/>
+  <!-- Shirt -->
+  <path d="M52 168 C62 138 138 138 148 168 L150 200 L50 200 Z" fill="#295F48" stroke="#241A10" stroke-width="3"/>
+  <path d="M84 146 L100 166 L116 146" stroke="#241A10" stroke-width="2" fill="#FAF3E4"/>
+</svg>

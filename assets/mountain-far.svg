@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="gradFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C6E94" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#554972" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <!-- Far Misty Blue Ridge Peaks -->
+  <path d="M0 240 
+           Q 120 180 240 210 
+           T 480 170 
+           T 720 190 
+           T 960 150 
+           T 1200 185 
+           T 1440 160 
+           L 1440 400 
+           L 0 400 Z" 
+        fill="url(#gradFar)"/>
+</svg>

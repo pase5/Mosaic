@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOSAIC 2.0 — National Humanitarian Tech Retreat & Challenge | IEEE SPS Kerala Chapter</title>
+  <meta name="description" content="National humanitarian technology challenge & mountain retreat organized by IEEE SPS Kerala Chapter. Three structured phases, 25 interdisciplinary challenges, 6 workshop layers, and a 36-hour offline tech-a-thon in Kerala.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="MOSAIC 2.0 — Humanitarian Tech Expedition & Retreat">
+  <meta property="og:description" content="Engineered so teams understand the community problem before they build. October – December 2026.">
+  <meta property="og:type" content="website">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/event-logo.png">
+</head>
+<body>
+
+  <!-- Sticky Morphing Expedition Navbar -->
+  <header class="navbar-expedition" role="banner">
+    <div class="container">
+      <a href="index.html" class="nav-brand-group" aria-label="MOSAIC 2.0 Homepage">
+        <div class="brand-logo-wrapper">
+          <img src="assets/event-logo.png" alt="MOSAIC Logo" class="brand-logo-img">
+        </div>
+        <div class="brand-text-block">
+          <div class="brand-title-row">
+            <span class="brand-name">MOSAIC</span>
+            <span class="brand-edition-badge">2.0</span>
+          </div>
+          <span class="brand-sub">IEEE SPS KERALA</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-links-expedition" role="navigation" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link-item">Experience</a>
+        <a href="#pipeline" class="nav-link-item">Pipeline</a>
+        <a href="#tracks" class="nav-link-item">Tracks</a>
+        <a href="problem-statements.html" class="nav-link-item">
+          Challenges
+          <span class="nav-count-badge">25</span>
+        </a>
+        <a href="schedule.html" class="nav-link-item">Schedule</a>
+        <a href="#evaluation" class="nav-link-item">Rubrics</a>
+        <a href="#pricing" class="nav-link-item">Pricing</a>
+        <a href="#faq" class="nav-link-item">FAQ</a>
+      </nav>
+
+      <!-- Right Action Group (Date Badge & Terracotta Button) -->
+      <div class="nav-action-group">
+        <div class="nav-date-badge">
+          <span class="badge-dot" aria-hidden="true"></span>
+          <div class="date-text-block">
+            <span class="date-month">OCTOBER 2026</span>
+            <span class="date-loc">KERALA, INDIA</span>
+          </div>
+        </div>
+
+        <a href="#pricing" class="btn-terracotta">
+          <span>Get Ticket</span>
+          <span class="btn-terracotta-sub">Phase 1 Soon</span>
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button id="hamburger-btn" class="hamburger-expedition" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-overlay" class="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside id="mobile-drawer" class="mobile-nav-drawer" role="dialog" aria-label="Mobile Navigation">
+    <div>
+      <div class="mobile-drawer-header">
+        <div class="mobile-drawer-brand">
+          <img src="assets/event-logo.png" alt="MOSAIC Logo" class="mobile-drawer-logo">
+          <div>
+            <div class="mobile-drawer-brand-name">MOSAIC 2.0</div>
+            <div class="mobile-drawer-brand-sub">IEEE SPS KERALA</div>
+          </div>
+        </div>
+        <button id="close-drawer-btn" class="mobile-drawer-close" aria-label="Close menu">✕</button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link">
+          <span>The Experience</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#pipeline" class="mobile-nav-link">
+          <span>3-Phase Pipeline</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#tracks" class="mobile-nav-link">
+          <span>Field Tech Stack</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="problem-statements.html" class="mobile-nav-link">
+          <span>25 Problem Statements</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="schedule.html" class="mobile-nav-link">
+          <span>Phase 3 Schedule</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#evaluation" class="mobile-nav-link">
+          <span>Evaluation Rubrics</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#pricing" class="mobile-nav-link">
+          <span>Pricing & Entry</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#faq" class="mobile-nav-link">
+          <span>FAQ</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="#contact" class="mobile-nav-link">
+          <span>Contact</span>
+          <span class="link-arrow">→</span>
+        </a>
+      </nav>
+    </div>
+    <div class="mobile-drawer-footer">
+      <div class="mobile-drawer-meta">
+        <span>⛺</span>
+        <span>Kerala, India · Oct–Dec 2026</span>
+      </div>
+      <a href="#pricing" class="btn-terracotta" style="width: 100%; text-align: center;">
+        <span>Register Team</span>
+        <span class="btn-terracotta-sub">Opening 10 Oct 2026</span>
+      </a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- 1. MULTI-LAYER PARALLAX MOUNTAIN SUNSET HERO SECTION -->
+    <section class="hero-parallax-container" aria-label="Hero Landscape">
+      
+      <!-- Parallax Mountain Layers (controlled by js/app.js) -->
+      <div class="parallax-layer layer-far" aria-hidden="true">
+        <img src="assets/mountain-far.svg" alt="">
+      </div>
+      <div class="parallax-layer layer-mid" aria-hidden="true">
+        <img src="assets/mountain-mid.svg" alt="">
+      </div>
+      <div class="parallax-layer layer-near" aria-hidden="true">
+        <img src="assets/mountain-near.svg" alt="">
+      </div>
+      <div class="parallax-layer layer-foreground" aria-hidden="true">
+        <!-- Contains the foreground mountain crest and lone explorer silhouette on the ridge -->
+        <img src="assets/mountain-foreground.svg" alt="">
+      </div>
+
+      <!-- Hero Typography & Content -->
+      <div class="container">
+        <div class="hero-expedition-content">
+          <div class="hero-editorial-badge">
+            <span>⛺</span> IEEE SPS Kerala Chapter · Edition 2.0
+          </div>
+
+          <h1 class="hero-camp-title">
+            MOSAIC<span class="hero-camp-tag">2.0</span>
+          </h1>
+
+          <p class="hero-camp-lead">
+            MOSAIC 2.0 is an unforgettable, relationship-focused humanitarian technology retreat in the hills of Kerala. Forget the artificial auditorium hackathon, leave the generic slides behind, and engineer <strong>cyber-physical systems that survive contact with the real world</strong>.
+          </p>
+
+          <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+            <a href="#pricing" class="btn-terracotta">
+              <span>Reserve Your Wristband</span>
+              <span class="btn-terracotta-sub">Phase 1 Opens 10 Oct 2026</span>
+            </a>
+            <a href="problem-statements.html" style="font-family: var(--font-body); font-weight: 700; color: #FFFFFF; text-decoration: underline; text-underline-offset: 4px; font-size: 0.95rem; text-shadow: 0 1px 4px rgba(0,0,0,0.6);">
+              Explore 25 Field Challenges →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Organic Torn Paper / Mountain Silhouette Divider -->
+      <div class="torn-paper-divider" aria-hidden="true">
+        <img src="assets/torn-paper.svg" alt="">
+      </div>
+    </section>
+
+    <!-- 2. EXPEDITION KEY FACTS 3-COLUMN STRIP (Matching Flat Camp Reference) -->
+    <section class="facts-strip-section" aria-label="Key Facts">
+      <div class="container">
+        <div class="facts-strip-grid">
+          <div class="fact-column">
+            <div class="fact-label">DATES</div>
+            <div class="fact-val-primary">October – December 2026</div>
+            <div class="fact-val-sub">Phase 1 validation begins 10th October</div>
+          </div>
+
+          <div class="fact-column">
+            <div class="fact-label">LOCATION</div>
+            <div class="fact-val-primary">Western Ghats, Kerala, India</div>
+            <div class="fact-val-sub">Virtual Idea Hack + 3-Day In-Person Basecamp Finale</div>
+          </div>
+
+          <div class="fact-column">
+            <div class="fact-label">ALL-INCLUSIVE PARTICIPATION</div>
+            <div class="fact-val-primary">Priced Per Participant</div>
+            <div class="fact-val-sub">IEEE Member Concessions · Meals & Prototyping Labs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. "THE EXPERIENCE" SECTION & POLAROIDS (Matching Flat Camp Layout) -->
+    <section id="about" class="experience-section" aria-label="The Experience">
+      <div class="container">
+        <div class="experience-grid">
+          
+          <!-- Left Polaroid: Mountain Lodge with GPS Coordinates -->
+          <div class="polaroid-card tilt-left">
+            <div class="polaroid-img-wrapper">
+              <img src="assets/images/polaroid-lodge.svg" alt="Basecamp Lodge in Western Ghats">
+            </div>
+            <div class="polaroid-coords">36.4669° N, 80.8464° W · BASECAMP</div>
+          </div>
+
+          <!-- Center Content: The Experience -->
+          <div class="experience-center">
+            <span class="trail-eyebrow">FIELD EXPEDITION</span>
+            <h2 class="experience-heading">THE EXPERIENCE</h2>
+            
+            <p class="experience-body">
+              MOSAIC makes its grand return this season in the scenic mountain valleys and backwaters of Kerala. Unlike a traditional tech conference or rushed 24-hour code marathon, this event does not revolve around sleepless nights in an artificial room packed with theoretical pitch slides.
+            </p>
+            <p class="experience-body">
+              Instead, we've taken the humanitarian mission into the field and made it the main event. Teams validate ground-truth community problems, receive dual guidance from technical architects and field practitioners, and build working cyber-physical prototypes that solve real-world problems.
+            </p>
+            <p class="experience-body" style="font-weight: 600; color: var(--terracotta);">
+              This is the serious, adult version of a builder summer camp — engineered for humanitarian impact.
+            </p>
+          </div>
+
+          <!-- Right Polaroid: Outdoor Terrace Gathering with Vintage Postal Stamp -->
+          <div class="polaroid-card tilt-right" style="position: relative;">
+            <!-- Weathered Postal Stamp tilted on top right -->
+            <img src="assets/postal-stamp.svg" alt="Official Expedition Stamp" class="stamp-element">
+
+            <div class="polaroid-img-wrapper">
+              <img src="assets/images/polaroid-gathering.svg" alt="Makers collaborating on mountain terrace">
+            </div>
+            <div class="polaroid-coords">WESTERN GHATS FIELD LAB · KERALA</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. STATS BANNER STRIP -->
+    <section class="stats-banner-section" aria-label="Event Statistics">
+      <div class="container">
+        <div class="stats-flex">
+          <div class="stat-item">
+            <div class="stat-num-expedition">3</div>
+            <div class="stat-text-expedition">Structured Phases</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num-expedition">25</div>
+            <div class="stat-text-expedition">Field Problem Statements</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num-expedition">7</div>
+            <div class="stat-text-expedition">UN SDG Tracks</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num-expedition">6</div>
+            <div class="stat-text-expedition">Workshop Domains</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num-expedition">36h</div>
+            <div class="stat-text-expedition">Continuous Final Sprint</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. THREE CORE PRINCIPLES -->
+    <section class="container" style="margin-bottom: 90px;">
+      <div class="trail-section-header">
+        <span class="trail-eyebrow">OUR PHILOSOPHY</span>
+        <h2 class="trail-title">BUILT FOR CONTACT WITH REALITY</h2>
+        <p style="font-size: 1.05rem; color: var(--ink-body);">
+          We deliberately rejected the quick-pitch format. Real communities need resilient physical solutions, not vaporware.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px;">
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px 24px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--forest-green);">
+          <div style="font-size: 1.6rem; margin-bottom: 12px;">🌿</div>
+          <h3 style="font-family: var(--font-body); font-size: 1.25rem; font-weight: 800; margin-bottom: 10px;">Community First, Technology Second</h3>
+          <p style="font-size: 0.94rem; color: var(--ink-body); line-height: 1.65;">
+            Teams must clearly profile their frontline beneficiary, document failure modes under rain, dust, or power cuts, and examine ethical deployment risks before building hardware.
+          </p>
+        </div>
+
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px 24px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--terracotta);">
+          <div style="font-size: 1.6rem; margin-bottom: 12px;">🛠️</div>
+          <h3 style="font-family: var(--font-body); font-size: 1.25rem; font-weight: 800; margin-bottom: 10px;">Skill Equity by Design</h3>
+          <p style="font-size: 0.94rem; color: var(--ink-body); line-height: 1.65;">
+            8.5 hours of intensive capacity-building workshops across 6 cyber-physical layers are provided before the main hack so participants share common engineering preparation.
+          </p>
+        </div>
+
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px 24px; box-shadow: var(--shadow-sm); border-top: 4px solid var(--gold-accent);">
+          <div style="font-size: 1.6rem; margin-bottom: 12px;">📊</div>
+          <h3 style="font-family: var(--font-body); font-size: 1.25rem; font-weight: 800; margin-bottom: 10px;">Reflection is Scored</h3>
+          <p style="font-size: 0.94rem; color: var(--ink-body); line-height: 1.65;">
+            The BrainStorm Round requires a comprehensive Humanitarian Learning Report. Deep reflection on field constraints and ethical responsibility contributes 20–25% of your final score.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. THE 3-PHASE PIPELINE (Hiking Trail Milestone Map) -->
+    <section id="pipeline" class="pipeline-section" aria-label="Timeline Pipeline">
+      <div class="container">
+        <div class="trail-section-header">
+          <span class="trail-eyebrow">THE EXPEDITION PIPELINE</span>
+          <h2 class="trail-title">THREE GATES. ONE SUMMIT.</h2>
+          <p style="font-size: 1.05rem; color: var(--ink-body);">
+            Each phase acts as a qualification gate. Excellence in Phase 1 earns professional mentorship; success in Phase 2 earns your seat at the 3-day in-person mountain basecamp.
+          </p>
+        </div>
+
+        <div class="pipeline-cards-grid">
+          <!-- Gate 1 -->
+          <div class="pipeline-card">
+            <div>
+              <span class="pipeline-badge">GATE 1 · BASECAMP SUBMISSION</span>
+              <h3 class="pipeline-card-title">Phase 1: Online Idea Hack</h3>
+              <p class="pipeline-card-desc">
+                Teams register and submit a rigorous problem validation dossier for one of the 25 problem statements. Focus on community empathy, field constraints, and SDG alignment.
+              </p>
+            </div>
+            <div class="pipeline-card-reward">
+              🏆 Unlocks: Shortlisting into HackTank & Dual Assigned Mentors
+            </div>
+          </div>
+
+          <!-- Gate 2 -->
+          <div class="pipeline-card">
+            <div>
+              <span class="pipeline-badge" style="color: var(--forest-green); background: rgba(36, 53, 39, 0.08);">GATE 2 · MENTORSHIP SUMMIT</span>
+              <h3 class="pipeline-card-title">Phase 2: HackTank Pitch</h3>
+              <p class="pipeline-card-desc">
+                Shortlisted teams work directly with assigned technical and humanitarian mentors, refining cyber-physical system blueprints and pitching virtually to an expert jury.
+              </p>
+            </div>
+            <div class="pipeline-card-reward" style="border-left-color: var(--forest-green);">
+              🏆 Unlocks: Finalist invitation to the 3-Day Offline Basecamp
+            </div>
+          </div>
+
+          <!-- Gate 3 -->
+          <div class="pipeline-card">
+            <div>
+              <span class="pipeline-badge" style="color: #9C27B0; background: rgba(156, 39, 176, 0.08);">GATE 3 · THE GRAND FINALE</span>
+              <h3 class="pipeline-card-title">Phase 3: 3-Day Offline Tech-a-thon</h3>
+              <p class="pipeline-card-desc">
+                An intensive 55-hour in-person retreat in Kerala: 8.5 hours of hardware/AI labs, a 36-hour continuous hack sprint, BrainStorm report, and live jury stress testing.
+              </p>
+            </div>
+            <div class="pipeline-card-reward" style="border-left-color: #9C27B0;">
+              🏆 Grand Prize: Seed funding, IEEE SPS laurels & pilot deployment
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. ELIGIBILITY SECTION -->
+    <section class="container" style="margin-bottom: 80px;">
+      <div class="eligibility-banner-expedition">
+        <div class="eligibility-icon-circle">★</div>
+        <div>
+          <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--terracotta); margin-bottom: 4px;">
+            Mandatory Diversity Requirement
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--ink-body); line-height: 1.6;">
+            In strict adherence to our equity and inclusion charter, <strong>at least one female member per team is mandatory</strong>. Teams of 2 to 4 members are eligible; entries without female representation cannot pass Phase 1.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+        <div style="background: #FFFFFF; padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--ink-muted); text-transform: uppercase;">Requirement 01</div>
+          <h4 style="font-size: 1.15rem; font-weight: 800; margin: 6px 0 8px;">Team Size: 2 to 4</h4>
+          <p style="font-size: 0.9rem; color: var(--ink-body);">Teams register together. The first registered participant serves as Team Lead and primary contact.</p>
+        </div>
+
+        <div style="background: #FFFFFF; padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--ink-muted); text-transform: uppercase;">Requirement 02</div>
+          <h4 style="font-size: 1.15rem; font-weight: 800; margin: 6px 0 8px;">One SDG Track per Team</h4>
+          <p style="font-size: 0.9rem; color: var(--ink-body);">Teams select one primary track from the 7 UN SDGs. The specific challenge can be locked during Phase 1.</p>
+        </div>
+
+        <div style="background: #FFFFFF; padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--ink-muted); text-transform: uppercase;">Requirement 03</div>
+          <h4 style="font-size: 1.15rem; font-weight: 800; margin: 6px 0 8px;">Priced Per Participant</h4>
+          <p style="font-size: 0.9rem; color: var(--ink-body);">Fees depend on individual IEEE membership status. Mixed teams pay the sum of individual rates.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. WORKSHOP LAYERS (The Field Technology Stack) -->
+    <section id="tracks" class="container" style="margin-bottom: 90px;">
+      <div class="trail-section-header">
+        <span class="trail-eyebrow">FIELD CURRICULUM</span>
+        <h2 class="trail-title">THE FIELD TECHNOLOGY STACK</h2>
+        <p style="font-size: 1.05rem; color: var(--ink-body);">
+          Six workshops functioning as the integrated layers of one humanitarian cyber-physical architecture.
+        </p>
+      </div>
+
+      <div class="workshops-expedition-grid">
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 1: Spatial Telemetry</div>
+            <h3 class="ws-field-title">GIS, Weather Intelligence & Remote Sensing</h3>
+            <span class="ws-field-set">Set A (1.5 hrs)</span>
+            <p class="ws-field-desc">Multi-spectral satellite imagery, geospatial hazard modeling, and offline map caching for rugged terrain.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">QGIS</span><span class="tech-chip">Sentinel-2</span><span class="tech-chip">MapLibre</span>
+          </div>
+        </div>
+
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 2: Local Perception</div>
+            <h3 class="ws-field-title">Edge AI & Computer Vision</h3>
+            <span class="ws-field-set">Set B (3.5 hrs Hands-On)</span>
+            <p class="ws-field-desc">Quantized neural networks on microcontrollers, real-time object detection for disaster reconnaissance, acoustic anomaly sensing.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">TFLite Micro</span><span class="tech-chip">Edge Impulse</span><span class="tech-chip">YOLOv8</span>
+          </div>
+        </div>
+
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 3: Human Protocol</div>
+            <h3 class="ws-field-title">Offline-First & Resilient App Development</h3>
+            <span class="ws-field-set">Set A (1.5 hrs)</span>
+            <p class="ws-field-desc">Mesh networking over BLE/LoRa, peer-to-peer data sync without internet, local CRDT storage, and emergency UI.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">PWA</span><span class="tech-chip">IndexedDB</span><span class="tech-chip">LoRaWAN</span>
+          </div>
+        </div>
+
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 4: Physical Interfacing</div>
+            <h3 class="ws-field-title">Embedded Systems & Sensor Integration</h3>
+            <span class="ws-field-set">Set B (3.5 hrs Hands-On)</span>
+            <p class="ws-field-desc">Ultra-low-power microcontrollers, multi-sensor analog front-ends, environmental buses, and solar MPPT energy harvesting.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">ESP32-S3</span><span class="tech-chip">Zephyr RTOS</span><span class="tech-chip">I2C / SPI</span>
+          </div>
+        </div>
+
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 5: Enclosure Engineering</div>
+            <h3 class="ws-field-title">Rapid Hardware Prototyping & Digital Fabrication</h3>
+            <span class="ws-field-set">Set B (2.0 hrs Hands-On)</span>
+            <p class="ws-field-desc">CAD for rugged IP67 enclosures, rapid 3D printing with PETG, PCB milling, thermal management, and weatherproofing.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">Fusion 360</span><span class="tech-chip">KiCad 8</span><span class="tech-chip">IP67 Enclosures</span>
+          </div>
+        </div>
+
+        <div class="workshop-field-card">
+          <div>
+            <div class="ws-field-layer">Layer 6: Field Actuation</div>
+            <h3 class="ws-field-title">Robotics, Automation & Control Systems</h3>
+            <span class="ws-field-set">Set B (2.0 hrs Hands-On)</span>
+            <p class="ws-field-desc">Closed-loop motor control, autonomous rover navigation for hazardous terrain, fail-safe actuation, and sensor deployment.</p>
+          </div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <span class="tech-chip">ROS 2</span><span class="tech-chip">PID Loops</span><span class="tech-chip">BLDC Drivers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. PROBLEM STATEMENTS TEASER -->
+    <section class="container" style="margin-bottom: 90px;">
+      <div style="background: #FFFFFF; border-radius: var(--radius-lg); padding: 48px; box-shadow: var(--shadow-polaroid); border: 1.5px solid rgba(28,24,20,0.08);">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px; border-bottom: 2px dashed rgba(28,24,20,0.15); padding-bottom: 24px; margin-bottom: 28px;">
+          <div>
+            <span class="trail-eyebrow">CHALLENGE DOSSIERS</span>
+            <h2 style="font-family: var(--font-condensed); font-size: 2.8rem; line-height: 1; color: var(--forest-green);">
+              25 PROBLEM STATEMENTS · 7 SDG TRACKS
+            </h2>
+            <p style="color: var(--ink-body); font-size: 1rem; margin-top: 6px;">
+              Every challenge combines physical hardware, edge computing, and offline resilience to solve authentic humanitarian crises.
+            </p>
+          </div>
+          <a href="problem-statements.html" class="btn-terracotta">
+            <span>Explore All 25 Challenges →</span>
+          </a>
+        </div>
+
+        <!-- 7 SDG Chips -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #4C9F38;">
+            <strong style="color: #4C9F38;">SDG 3</strong>: Health & Well-being (4 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #26BDE2;">
+            <strong style="color: #26BDE2;">SDG 6</strong>: Clean Water (3 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #FCC30B;">
+            <strong style="color: #FCC30B;">SDG 7</strong>: Clean Energy (3 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #FD6925;">
+            <strong style="color: #FD6925;">SDG 9</strong>: Resilient Infrastructure (4 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #FD9D24;">
+            <strong style="color: #FD9D24;">SDG 11</strong>: Sustainable Cities (4 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #3F7E44;">
+            <strong style="color: #3F7E44;">SDG 13</strong>: Climate Action (4 Challenges)
+          </div>
+          <div style="background: var(--bg-canvas-soft); padding: 14px 18px; border-radius: var(--radius-sm); border-left: 3px solid #56C02B;">
+            <strong style="color: #56C02B;">SDG 15</strong>: Life on Land (3 Challenges)
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. EVALUATION RUBRIC TABS -->
+    <section id="evaluation" class="container" style="margin-bottom: 90px;">
+      <div class="trail-section-header">
+        <span class="trail-eyebrow">SCORING METHODOLOGY</span>
+        <h2 class="trail-title">FIELD ASSESSMENT RUBRICS</h2>
+        <p style="font-size: 1.05rem; color: var(--ink-body);">
+          Scored for ground-truth empathy, engineering durability, and genuine humanitarian insight.
+        </p>
+      </div>
+
+      <div class="rubric-expedition-tabs">
+        <button class="tab-btn-expedition active" data-tab="phase1">Phase 1: Idea Validation</button>
+        <button class="tab-btn-expedition" data-tab="phase2">Phase 2: HackTank Pitch</button>
+        <button class="tab-btn-expedition" data-tab="phase3">Phase 3: Finale Defense</button>
+      </div>
+
+      <!-- Tab Panel 1 -->
+      <div id="tab-panel-phase1" class="tab-panel active">
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 18px;">Phase 1: Online Idea Hack Assessment</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Problem Validation & Empathy</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Evidence of genuine beneficiary identification and ground-truth failure mode analysis.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>SDG Alignment & Impact</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Alignment with targeted UN SDG indicators and measurable community improvement potential.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Technical Feasibility</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Pragmatic cyber-physical architecture integrating sensors, compute, and offline protocol.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Ethics & Field Safety</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Data sovereignty, fail-safe behaviors, environmental durability, and maintainability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Panel 2 -->
+      <div id="tab-panel-phase2" class="tab-panel">
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 18px;">Phase 2: HackTank Pitch Assessment</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Stakeholder Feedback Loops</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Integration of critique from assigned technical and humanitarian domain mentors.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Cyber-Physical Blueprint</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Detailed schematic coupling between hardware telemetry, edge compute, and user interface.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Prototyping BOM Realism</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Procurement realism, sub-$100 BOM feasibility, and 36-hour sprint milestones.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Sustainability Pathway</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Viability of post-hack adoption, repairability with local hand tools, and documentation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Panel 3 -->
+      <div id="tab-panel-phase3" class="tab-panel">
+        <div style="background: #FFFFFF; border-radius: var(--radius-md); padding: 32px; box-shadow: var(--shadow-sm); border: 1.5px solid rgba(28,24,20,0.08);">
+          <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 18px;">Phase 3: Grand Finale & Live Jury Assessment</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Functional Hardware Prototype</span><span style="color: var(--terracotta);">35%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Tangible demonstration under simulated field conditions (dust, water splash, power drops).</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Humanitarian Learning Report</span><span style="color: var(--terracotta);">25%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Critical reflection on community empathy, ethical boundaries, and workshop synthesis.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Zero-Cloud Survivability</span><span style="color: var(--terracotta);">20%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Independent operation without cellular signals, battery endurance, and intuitive field UI.</p>
+            </div>
+            <div style="background: var(--bg-canvas-soft); padding: 18px; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 6px;">
+                <span>Live Stress Defense</span><span style="color: var(--terracotta);">20%</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--ink-body);">Response to jury cross-examination, live fault tolerance handling, and team defense.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. PRICING & REGISTRATION -->
+    <section id="pricing" class="container" style="margin-bottom: 90px;">
+      <div style="background: #FFFFFF; border-radius: var(--radius-lg); padding: 48px; box-shadow: var(--shadow-polaroid); border: 1.5px solid rgba(28,24,20,0.08);">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 36px;">
+          <span class="trail-eyebrow">REGISTRATION & ENTRY</span>
+          <h2 style="font-family: var(--font-condensed); font-size: 3rem; line-height: 1; color: var(--forest-green);">
+            PRICED PER PARTICIPANT, NOT PER TEAM
+          </h2>
+          <p style="color: var(--ink-body); font-size: 1rem; margin-top: 10px;">
+            Members of one team may belong to different pricing categories. Your total fee equals the accurate sum of each member's IEEE status.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 36px;">
+          <div style="background: var(--bg-canvas-soft); padding: 28px; border-radius: var(--radius-md); border: 1px solid rgba(28,24,20,0.08);">
+            <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--terracotta); text-transform: uppercase;">Category A</div>
+            <h4 style="font-size: 1.3rem; font-weight: 800; margin: 4px 0 8px;">IEEE SPS Members</h4>
+            <p style="font-size: 0.9rem; color: var(--ink-body); margin-bottom: 14px;">Maximum subsidized rates for active members of IEEE Signal Processing Society.</p>
+            <div style="font-family: var(--font-mono); font-weight: 800; color: var(--forest-green);">Deepest Concession</div>
+          </div>
+
+          <div style="background: var(--bg-canvas-soft); padding: 28px; border-radius: var(--radius-md); border: 1px solid rgba(28,24,20,0.08);">
+            <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--terracotta); text-transform: uppercase;">Category B</div>
+            <h4 style="font-size: 1.3rem; font-weight: 800; margin: 4px 0 8px;">General IEEE Members</h4>
+            <p style="font-size: 0.9rem; color: var(--ink-body); margin-bottom: 14px;">Subsidized registration for active members of any IEEE society or student branch.</p>
+            <div style="font-family: var(--font-mono); font-weight: 800; color: var(--forest-green);">Subsidized Rate</div>
+          </div>
+
+          <div style="background: var(--bg-canvas-soft); padding: 28px; border-radius: var(--radius-md); border: 1px solid rgba(28,24,20,0.08);">
+            <div style="font-family: var(--font-mono); font-size: 0.76rem; font-weight: 800; color: var(--terracotta); text-transform: uppercase;">Category C</div>
+            <h4 style="font-size: 1.3rem; font-weight: 800; margin: 4px 0 8px;">Non-IEEE Members</h4>
+            <p style="font-size: 0.9rem; color: var(--ink-body); margin-bottom: 14px;">Open nationally to all recognized university and polytechnic college students.</p>
+            <div style="font-family: var(--font-mono); font-weight: 800; color: var(--ink-muted);">Standard Rate</div>
+          </div>
+        </div>
+
+        <div style="text-align: center;">
+          <button class="btn-terracotta" style="padding: 14px 36px; font-size: 1rem;" disabled>
+            <span>Registration Opens 10 October 2026</span>
+            <span class="btn-terracotta-sub">Virtual Phase 1 Portal</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. FREQUENTLY ASKED QUESTIONS -->
+    <section id="faq" class="container" style="margin-bottom: 90px;">
+      <div class="trail-section-header">
+        <span class="trail-eyebrow">FIELD FAQ</span>
+        <h2 class="trail-title">COMMON QUESTIONS</h2>
+      </div>
+
+      <div class="faq-expedition-accordion">
+        <div class="faq-expedition-item">
+          <button class="faq-expedition-question">
+            <span>Who can participate in MOSAIC 2.0?</span>
+            <span class="faq-icon-arrow">+</span>
+          </button>
+          <div class="faq-expedition-answer">
+            The challenge is open nationally to undergraduate and postgraduate students, recent graduates, and early-career innovators across engineering, sciences, design, and humanities from recognized institutions.
+          </div>
+        </div>
+
+        <div class="faq-expedition-item">
+          <button class="faq-expedition-question">
+            <span>Is at least one female team member mandatory?</span>
+            <span class="faq-icon-arrow">+</span>
+          </button>
+          <div class="faq-expedition-answer">
+            Yes. In strict alignment with our diversity and equity policy, every participating team must include at least one female member.
+          </div>
+        </div>
+
+        <div class="faq-expedition-item">
+          <button class="faq-expedition-question">
+            <span>How are participation fees calculated?</span>
+            <span class="faq-icon-arrow">+</span>
+          </button>
+          <div class="faq-expedition-answer">
+            Fees are priced per participant, not as a flat team rate. The total fee equals the sum of each individual member's category (IEEE SPS member, general IEEE member, or non-IEEE member).
+          </div>
+        </div>
+
+        <div class="faq-expedition-item">
+          <button class="faq-expedition-question">
+            <span>What happens during Phase 3 in person?</span>
+            <span class="faq-icon-arrow">+</span>
+          </button>
+          <div class="faq-expedition-answer">
+            Phase 3 is an intensive 55-hour in-person tech-a-thon in Kerala featuring 8.5 hours of cyber-physical workshops across two sets, a 36-hour continuous hack sprint starting Friday midnight, hardware prototyping labs, and live jury stress testing.
+          </div>
+        </div>
+
+        <div class="faq-expedition-item">
+          <button class="faq-expedition-question">
+            <span>What is the Humanitarian Learning Report?</span>
+            <span class="faq-icon-arrow">+</span>
+          </button>
+          <div class="faq-expedition-answer">
+            Unlike typical hackathons that only inspect final software demos, MOSAIC evaluates your humanitarian understanding. Teams produce a Humanitarian Learning Report covering community empathy, ethical constraints, and workshop synthesis, contributing 20–25% of the final score.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. CLOSING CALLOUT -->
+    <section class="container">
+      <div class="closing-callout-expedition">
+        <div>
+          <span style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 800; color: var(--butter-yellow); text-transform: uppercase; letter-spacing: 2px;">
+            JOIN THE EXPEDITION
+          </span>
+          <h2 style="font-family: var(--font-condensed); font-size: clamp(2.4rem, 4.5vw, 3.8rem); line-height: 0.95; color: #FFFFFF; margin-top: 8px;">
+            BUILD SOMETHING THAT SURVIVES CONTACT WITH THE REAL WORLD.
+          </h2>
+          <p style="font-size: 1.05rem; color: #C5BDB0; margin-top: 12px; max-width: 600px;">
+            Phase 1 registration opens soon. Form your team of 2–4 with at least one female member, select your SDG track, and prepare for the 3-phase journey.
+          </p>
+        </div>
+        <div>
+          <a href="#pricing" class="btn-terracotta" style="padding: 16px 36px; font-size: 1rem;">
+            <span>Registration Opens Soon</span>
+            <span class="btn-terracotta-sub">Phase 1 · 10 Oct 2026</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- EXPEDITION FOOTER -->
+  <footer id="contact" class="footer-expedition" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid-expedition">
+        <div>
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+            <img src="assets/event-logo.png" alt="MOSAIC Logo" style="height: 44px; width: 44px; border-radius: 8px; background: #fff; padding: 2px; object-fit: contain;">
+            <div>
+              <div style="font-family: var(--font-condensed); font-size: 1.6rem; color: #FFFFFF; line-height: 1;">MOSAIC<span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--terracotta); margin-left: 4px;">2.0</span></div>
+              <div style="font-family: var(--font-mono); font-size: 0.65rem; color: #A8A096; letter-spacing: 1px;">IEEE SPS KERALA</div>
+            </div>
+          </div>
+          <p style="font-size: 0.9rem; color: #9E9487; line-height: 1.6; max-width: 340px;">
+            A national humanitarian technology tech-a-thon organized by IEEE SPS Kerala Chapter, with IEEE Kerala Section supporting the programme structure.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title-expedition">EXPEDITION</h4>
+          <div class="footer-links-expedition">
+            <a href="#about">The Experience</a>
+            <a href="#pipeline">3-Phase Pipeline</a>
+            <a href="#tracks">Field Tech Stack</a>
+            <a href="problem-statements.html">25 Problem Statements</a>
+            <a href="schedule.html">Phase 3 Schedule</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title-expedition">PARTICIPATE</h4>
+          <div class="footer-links-expedition">
+            <a href="#pricing">Registration & Fees</a>
+            <a href="#pricing">Category Pricing</a>
+            <a href="#pipeline">Eligibility Rules</a>
+            <a href="#faq">Frequently Asked</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title-expedition">CONTACT</h4>
+          <div class="footer-links-expedition">
+            <a href="mailto:contact@ieeespskc.in">contact@ieeespskc.in</a>
+            <a href="tel:+919846012345">+91 98460 12345</a>
+            <a href="https://ieeespskc.in/" target="_blank" rel="noopener">ieeespskc.in</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-expedition">
+        <div>© 2026 IEEE SPS Kerala Chapter. All rights reserved.</div>
+        <div>9.9312° N, 76.2673° E · KERALA, INDIA</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

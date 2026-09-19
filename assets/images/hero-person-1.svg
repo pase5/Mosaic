@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 260" fill="none">
+  <!-- Guy with beard and bun in black tee -->
+  <!-- Outline filter for sticker cutout effect -->
+  <g filter="drop-shadow(0px 6px 0px #241A10)">
+    <!-- White / Orange border stroke background -->
+    <!-- Hair bun -->
+    <circle cx="80" cy="36" r="18" fill="#F16538" stroke="#241A10" stroke-width="4"/>
+    <circle cx="80" cy="36" r="14" fill="#362215"/>
+    <!-- Head -->
+    <ellipse cx="80" cy="74" rx="34" ry="40" fill="#E8B092" stroke="#241A10" stroke-width="4"/>
+    <!-- Hair side & top -->
+    <path d="M48 68 C46 36 114 36 112 68 C112 74 104 80 104 80 C104 50 56 50 56 80 Z" fill="#362215"/>
+    <!-- Eyes -->
+    <circle cx="68" cy="72" r="4" fill="#241A10"/>
+    <circle cx="92" cy="72" r="4" fill="#241A10"/>
+    <!-- Beard full -->
+    <path d="M54 78 C54 130 106 130 106 78 C98 94 62 94 54 78 Z" fill="#26170E" stroke="#241A10" stroke-width="3"/>
+    <path d="M72 90 Q80 96 88 90" stroke="#FAF3E4" stroke-width="2" fill="none"/>
+    <!-- Black Tee Body with orange badge sticker -->
+    <path d="M26 142 C38 120 122 120 134 142 L144 256 L16 256 Z" fill="#1C1814" stroke="#241A10" stroke-width="5"/>
+    <circle cx="52" cy="168" r="8" fill="#F16538"/>
+    <circle cx="52" cy="168" r="4" fill="#F7C638"/>
+  </g>
+</svg>

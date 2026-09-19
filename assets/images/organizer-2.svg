@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="94" fill="#FFC9B5" stroke="#241A10" stroke-width="4"/>
+  <!-- Hair Long -->
+  <path d="M46 90 C40 140 50 170 60 180 C70 140 70 90 70 80 C70 45 130 45 130 80 C130 90 130 140 140 180 C150 170 160 140 154 90 C150 40 50 40 46 90 Z" fill="#2E1B16"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="98" rx="40" ry="44" fill="#E8B092"/>
+  <!-- Eyes -->
+  <circle cx="86" cy="92" r="5" fill="#241A10"/>
+  <circle cx="114" cy="92" r="5" fill="#241A10"/>
+  <path d="M80 84 Q86 80 92 84" stroke="#241A10" stroke-width="3" fill="none"/>
+  <path d="M108 84 Q114 80 120 84" stroke="#241A10" stroke-width="3" fill="none"/>
+  <path d="M84 90 C84 86 88 86 88 90" stroke="#241A10" stroke-width="1.5"/>
+  <path d="M112 90 C112 86 116 86 116 90" stroke="#241A10" stroke-width="1.5"/>
+  <!-- Smile with teeth -->
+  <path d="M88 116 Q100 130 112 116 Z" fill="#FAF3E4" stroke="#241A10" stroke-width="2.5"/>
+  <!-- Cheeks -->
+  <ellipse cx="76" cy="104" rx="8" ry="5" fill="#F07D73" opacity="0.6"/>
+  <ellipse cx="124" cy="104" rx="8" ry="5" fill="#F07D73" opacity="0.6"/>
+  <!-- Clothes -->
+  <path d="M56 168 C64 140 136 140 144 168 L146 200 L54 200 Z" fill="#E84E38" stroke="#241A10" stroke-width="3"/>
+  <circle cx="100" cy="174" r="8" fill="#F7C638"/>
+</svg>

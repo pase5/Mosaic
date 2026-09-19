@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 450" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="gradMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#49446B"/>
+      <stop offset="100%" stop-color="#322C4D"/>
+    </linearGradient>
+  </defs>
+  <!-- Middle Mountain Range -->
+  <path d="M0 260 
+           C 160 210 280 250 420 220 
+           C 560 190 680 240 820 200 
+           C 960 170 1100 230 1260 190 
+           C 1340 170 1400 200 1440 195 
+           L 1440 450 
+           L 0 450 Z" 
+        fill="url(#gradMid)"/>
+</svg>

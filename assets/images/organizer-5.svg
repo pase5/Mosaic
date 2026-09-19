@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="94" fill="#C5E8E4" stroke="#241A10" stroke-width="4"/>
+  <!-- Cap -->
+  <path d="M60 76 C60 50 140 50 140 76 L154 84 L138 88 L62 88 L46 84 Z" fill="#241A10"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="106" rx="40" ry="42" fill="#E8B092"/>
+  <!-- Eyes -->
+  <circle cx="86" cy="102" r="5" fill="#241A10"/>
+  <circle cx="114" cy="102" r="5" fill="#241A10"/>
+  <!-- Smile -->
+  <path d="M88 124 Q100 134 112 124" stroke="#241A10" stroke-width="3" fill="none"/>
+  <!-- Beard trim -->
+  <path d="M78 114 C78 142 122 142 122 114 C116 128 84 128 78 114 Z" fill="#3D291D"/>
+  <!-- Clothes -->
+  <path d="M54 172 C62 144 138 144 146 172 L148 200 L52 200 Z" fill="#E86E38" stroke="#241A10" stroke-width="3"/>
+</svg>

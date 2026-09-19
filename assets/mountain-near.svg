@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 500" preserveAspectRatio="none" fill="none">
+  <!-- Near Mountain Ridge -->
+  <path d="M0 270 
+           C 180 230 320 280 480 240 
+           C 620 200 740 260 900 210 
+           C 1060 170 1200 240 1360 190 
+           C 1400 180 1420 190 1440 185 
+           L 1440 500 
+           L 0 500 Z" 
+        fill="#231E37"/>
+</svg>

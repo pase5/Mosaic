@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <!-- Navy Blue Square Logo Icon with Compass Star -->
+  <rect x="2" y="8" width="44" height="44" rx="10" fill="#1C2E4A" stroke="#3D567A" stroke-width="2"/>
+  <!-- Compass Star in Cream -->
+  <path d="M24 16 L27 24 L35 24 L29 29 L31 37 L24 32 L17 37 L19 29 L13 24 L21 24 Z" fill="#FDE49E"/>
+  
+  <!-- Typography: hack4good -->
+  <text x="56" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22" fill="#FAF5EB" letter-spacing="-0.5">hack<tspan fill="#FDE49E">4</tspan>good</text>
+  
+  <!-- Sub-label: IEEE SPS KERALA -->
+  <text x="58" y="47" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="8.5" fill="#C5BDB0" letter-spacing="1.5">IEEE SPS · EXPEDITION 2.0</text>
+</svg>

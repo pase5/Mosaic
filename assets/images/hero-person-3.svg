@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 260" fill="none">
+  <!-- Woman with dark wavy hair smiling in black top -->
+  <g filter="drop-shadow(0px 6px 0px #241A10)">
+    <!-- Long wavy hair background -->
+    <path d="M34 76 C28 130 38 170 48 180 C58 130 58 76 58 70 C58 35 102 35 102 70 C102 76 102 130 112 180 C122 170 132 130 126 76 C122 30 38 30 34 76 Z" fill="#241A14" stroke="#241A10" stroke-width="4"/>
+    <!-- Head -->
+    <ellipse cx="80" cy="76" rx="32" ry="38" fill="#F2C8B0" stroke="#241A10" stroke-width="3.5"/>
+    <!-- Eyes -->
+    <circle cx="70" cy="72" r="4" fill="#241A10"/>
+    <circle cx="90" cy="72" r="4" fill="#241A10"/>
+    <!-- Lashes -->
+    <path d="M66 68 L64 64" stroke="#241A10" stroke-width="2"/>
+    <path d="M94 68 L96 64" stroke="#241A10" stroke-width="2"/>
+    <!-- Cheeks -->
+    <ellipse cx="62" cy="84" rx="6" ry="4" fill="#F07D73" opacity="0.6"/>
+    <ellipse cx="98" cy="84" rx="6" ry="4" fill="#F07D73" opacity="0.6"/>
+    <!-- Joyful smile -->
+    <path d="M70 94 Q80 110 90 94 Z" fill="#FAF3E4" stroke="#241A10" stroke-width="2.5"/>
+    <!-- Black Top Body -->
+    <path d="M26 142 C38 120 122 120 134 142 L144 256 L16 256 Z" fill="#1C1814" stroke="#241A10" stroke-width="5"/>
+    <!-- Scoop Neckline -->
+    <path d="M58 134 Q80 156 102 134" stroke="#241A10" stroke-width="3" fill="#F2C8B0"/>
+  </g>
+</svg>

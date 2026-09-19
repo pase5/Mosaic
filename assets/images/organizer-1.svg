@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="94" fill="#FFE28A" stroke="#241A10" stroke-width="4"/>
+  <!-- Hair & Beard -->
+  <path d="M50 100 C50 50 150 50 150 100 C150 120 140 140 100 140 C60 140 50 120 50 100 Z" fill="#422918"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="98" rx="42" ry="46" fill="#F8CEB4"/>
+  <!-- Eyes -->
+  <circle cx="86" cy="90" r="5" fill="#241A10"/>
+  <circle cx="114" cy="90" r="5" fill="#241A10"/>
+  <path d="M80 82 Q86 78 92 82" stroke="#241A10" stroke-width="3" fill="none"/>
+  <path d="M108 82 Q114 78 120 82" stroke="#241A10" stroke-width="3" fill="none"/>
+  <!-- Nose -->
+  <path d="M100 92 L98 102 L102 102" stroke="#241A10" stroke-width="2" fill="none"/>
+  <!-- Glasses -->
+  <rect x="74" y="82" width="22" height="18" rx="5" fill="none" stroke="#241A10" stroke-width="3"/>
+  <rect x="104" y="82" width="22" height="18" rx="5" fill="none" stroke="#241A10" stroke-width="3"/>
+  <path d="M96 90 L104 90" stroke="#241A10" stroke-width="3"/>
+  <!-- Smile -->
+  <path d="M90 114 Q100 124 110 114" stroke="#241A10" stroke-width="3" fill="none"/>
+  <!-- Beard -->
+  <path d="M78 106 C78 142 122 142 122 106 C115 120 85 120 78 106 Z" fill="#2D1A0D"/>
+  <!-- Clothes -->
+  <path d="M56 168 C64 140 136 140 144 168 L146 200 L54 200 Z" fill="#1E3A5F" stroke="#241A10" stroke-width="3"/>
+  <path d="M90 144 L100 162 L110 144 Z" fill="#FAF3E4"/>
+</svg>

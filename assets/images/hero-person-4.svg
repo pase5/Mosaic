@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 260" fill="none">
+  <!-- Guy in red/navy plaid flannel with baseball cap & beard -->
+  <g filter="drop-shadow(0px 6px 0px #241A10)">
+    <!-- Baseball cap -->
+    <path d="M48 54 C48 30 112 30 112 54 L128 62 L112 66 L48 66 L32 62 Z" fill="#241A10" stroke="#241A10" stroke-width="3"/>
+    <circle cx="80" cy="30" r="4" fill="#F7C638"/>
+    <!-- Head -->
+    <ellipse cx="80" cy="80" rx="34" ry="38" fill="#E8B092" stroke="#241A10" stroke-width="4"/>
+    <!-- Eyes -->
+    <circle cx="68" cy="76" r="4" fill="#241A10"/>
+    <circle cx="92" cy="76" r="4" fill="#241A10"/>
+    <!-- Beard full -->
+    <path d="M52 82 C52 134 108 134 108 82 C100 100 60 100 52 82 Z" fill="#241A10" stroke="#241A10" stroke-width="3"/>
+    <!-- Smile -->
+    <path d="M72 96 Q80 104 88 96" stroke="#FAF3E4" stroke-width="2.5" fill="none"/>
+    <!-- Plaid Flannel Shirt -->
+    <path d="M24 144 C36 122 124 122 136 144 L146 256 L14 256 Z" fill="#8B261E" stroke="#241A10" stroke-width="5"/>
+    <!-- Plaid checks -->
+    <line x1="44" y1="130" x2="44" y2="256" stroke="#1E3A5F" stroke-width="6"/>
+    <line x1="80" y1="130" x2="80" y2="256" stroke="#1E3A5F" stroke-width="8"/>
+    <line x1="116" y1="130" x2="116" y2="256" stroke="#1E3A5F" stroke-width="6"/>
+    <line x1="16" y1="165" x2="144" y2="165" stroke="#1E3A5F" stroke-width="6"/>
+    <line x1="16" y1="205" x2="144" y2="205" stroke="#1E3A5F" stroke-width="6"/>
+    <line x1="16" y1="245" x2="144" y2="245" stroke="#1E3A5F" stroke-width="6"/>
+    <!-- Overcheck lines yellow -->
+    <line x1="56" y1="130" x2="56" y2="256" stroke="#F7C638" stroke-width="2"/>
+    <line x1="104" y1="130" x2="104" y2="256" stroke="#F7C638" stroke-width="2"/>
+    <line x1="16" y1="185" x2="144" y2="185" stroke="#F7C638" stroke-width="2"/>
+    <line x1="16" y1="225" x2="144" y2="225" stroke="#F7C638" stroke-width="2"/>
+  </g>
+</svg>
